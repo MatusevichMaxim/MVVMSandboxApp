@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		565E9FBF285BB3780086C4F8 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565E9FBE285BB3780086C4F8 /* R.generated.swift */; };
+		565E9FC3285BBB830086C4F8 /* DependencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565E9FC2285BBB830086C4F8 /* DependencyManager.swift */; };
+		565E9FC6285BBCF50086C4F8 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565E9FC5285BBCF50086C4F8 /* StorageService.swift */; };
+		565E9FC8285BBD360086C4F8 /* StorageServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565E9FC7285BBD360086C4F8 /* StorageServiceImpl.swift */; };
+		565E9FCA285BC1950086C4F8 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565E9FC9285BC1950086C4F8 /* AppCoordinator.swift */; };
 		568D0DA5283941AF00006302 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568D0DA4283941AF00006302 /* AppDelegate.swift */; };
 		568D0DA7283941AF00006302 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568D0DA6283941AF00006302 /* SceneDelegate.swift */; };
 		568D0DA9283941AF00006302 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568D0DA8283941AF00006302 /* ViewController.swift */; };
@@ -19,6 +24,11 @@
 /* Begin PBXFileReference section */
 		262050E1AF65F2595E26BE1F /* Pods-MvvmSandboxApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MvvmSandboxApp.debug.xcconfig"; path = "Target Support Files/Pods-MvvmSandboxApp/Pods-MvvmSandboxApp.debug.xcconfig"; sourceTree = "<group>"; };
 		4DD605536AEC9BC5C5DC6D6D /* Pods_MvvmSandboxApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MvvmSandboxApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		565E9FBE285BB3780086C4F8 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		565E9FC2285BBB830086C4F8 /* DependencyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyManager.swift; sourceTree = "<group>"; };
+		565E9FC5285BBCF50086C4F8 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		565E9FC7285BBD360086C4F8 /* StorageServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageServiceImpl.swift; sourceTree = "<group>"; };
+		565E9FC9285BC1950086C4F8 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		568D0DA1283941AF00006302 /* MvvmSandboxApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MvvmSandboxApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		568D0DA4283941AF00006302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		568D0DA6283941AF00006302 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +60,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		565E9FB8285BB14F0086C4F8 /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Localizations;
+			sourceTree = "<group>";
+		};
+		565E9FB9285BB19C0086C4F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				565E9FBA285BB1A70086C4F8 /* Fonts */,
+				565E9FB8285BB14F0086C4F8 /* Localizations */,
+				568D0DAD283941B200006302 /* Assets.xcassets */,
+				565E9FBE285BB3780086C4F8 /* R.generated.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		565E9FBA285BB1A70086C4F8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		565E9FC0285BB39F0086C4F8 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		565E9FC1285BB3B90086C4F8 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				565E9FC2285BBB830086C4F8 /* DependencyManager.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		565E9FC4285BBCE70086C4F8 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				565E9FC5285BBCF50086C4F8 /* StorageService.swift */,
+				565E9FC7285BBD360086C4F8 /* StorageServiceImpl.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
 		568D0D98283941AF00006302 = {
 			isa = PBXGroup;
 			children = (
@@ -79,7 +138,6 @@
 				568D0DBD2839428700006302 /* Services */,
 				568D0DBC2839427800006302 /* Extensions */,
 				568D0DAA283941AF00006302 /* Main.storyboard */,
-				568D0DAD283941B200006302 /* Assets.xcassets */,
 				568D0DAF283941B200006302 /* LaunchScreen.storyboard */,
 				568D0DB2283941B200006302 /* Info.plist */,
 			);
@@ -89,8 +147,12 @@
 		568D0DB82839422E00006302 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				568D0DA6283941AF00006302 /* SceneDelegate.swift */,
+				565E9FC1285BB3B90086C4F8 /* DI */,
+				565E9FC0285BB39F0086C4F8 /* DesignSystem */,
+				565E9FB9285BB19C0086C4F8 /* Resources */,
+				565E9FC9285BC1950086C4F8 /* AppCoordinator.swift */,
 				568D0DA4283941AF00006302 /* AppDelegate.swift */,
+				568D0DA6283941AF00006302 /* SceneDelegate.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -127,6 +189,7 @@
 		568D0DBD2839428700006302 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				565E9FC4285BBCE70086C4F8 /* Storage */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -144,7 +207,6 @@
 				262050E1AF65F2595E26BE1F /* Pods-MvvmSandboxApp.debug.xcconfig */,
 				64959D6807340AB7A6B3F22F /* Pods-MvvmSandboxApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -156,6 +218,7 @@
 			buildConfigurationList = 568D0DB5283941B200006302 /* Build configuration list for PBXNativeTarget "MvvmSandboxApp" */;
 			buildPhases = (
 				679B9B6597642E39DA41C6F3 /* [CP] Check Pods Manifest.lock */,
+				565E9FBB285BB2780086C4F8 /* R.Swift Run Script */,
 				568D0D9D283941AF00006302 /* Sources */,
 				568D0D9E283941AF00006302 /* Frameworks */,
 				568D0D9F283941AF00006302 /* Resources */,
@@ -217,6 +280,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		565E9FBB285BB2780086C4F8 /* R.Swift Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = "R.Swift Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
 		679B9B6597642E39DA41C6F3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -264,8 +347,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				568D0DA9283941AF00006302 /* ViewController.swift in Sources */,
+				565E9FC6285BBCF50086C4F8 /* StorageService.swift in Sources */,
 				568D0DA5283941AF00006302 /* AppDelegate.swift in Sources */,
+				565E9FC3285BBB830086C4F8 /* DependencyManager.swift in Sources */,
+				565E9FCA285BC1950086C4F8 /* AppCoordinator.swift in Sources */,
+				565E9FC8285BBD360086C4F8 /* StorageServiceImpl.swift in Sources */,
 				568D0DA7283941AF00006302 /* SceneDelegate.swift in Sources */,
+				565E9FBF285BB3780086C4F8 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +506,6 @@
 				INFOPLIST_FILE = MvvmSandboxApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -448,7 +535,6 @@
 				INFOPLIST_FILE = MvvmSandboxApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

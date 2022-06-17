@@ -2,19 +2,23 @@ PODS:
   - R.swift (6.1.0):
     - R.swift.Library (~> 5.3.0)
   - R.swift.Library (5.3.0)
+  - Swinject (2.8.1)
 
 DEPENDENCIES:
   - R.swift
+  - Swinject
 
 SPEC REPOS:
   trunk:
     - R.swift
     - R.swift.Library
+    - Swinject
 
 SPEC CHECKSUMS:
   R.swift: ec98ff71c4ab2f6fd01dd077e5afd15e63a4834c
   R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
+  Swinject: 97112918bd7e0785dc2df7036213f3c8cbba6586
 
-PODFILE CHECKSUM: f8adab78bc9793a3b0aea530c6e74a7e717def22
+PODFILE CHECKSUM: 27cccdcf69fc7f272e9a2881ba73c5c61ce89b7a
 
 COCOAPODS: 1.11.3

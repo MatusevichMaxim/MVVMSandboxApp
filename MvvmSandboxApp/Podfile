@@ -6,4 +6,5 @@ target 'MvvmSandboxApp' do
 
   # Pods for MvvmSandboxApp
   pod 'R.swift'
+  pod 'Swinject'
 end
